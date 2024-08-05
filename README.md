@@ -79,3 +79,5 @@ From the VisualGenome dataset V1.2, 8,000 images were randomly selected. Using t
 
 
 The download links for images and QA text are available on the Hugging Face website. [REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet)。
+
+**If you find this project helpful, we kindly request that you show your support by giving a star to both this project and the Hugging Face project. Your endorsement would greatly encourage our ongoing efforts to improve and maintain these resources.**
