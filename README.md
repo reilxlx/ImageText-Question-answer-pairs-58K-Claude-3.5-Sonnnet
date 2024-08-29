@@ -1,13 +1,13 @@
 [中文](README_zh.md)
 
-### VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet
-From the VisualGenome dataset V1.2, 8,000 images were randomly selected. Using the Claude-3-opus-20240229 and Claude-3-sonnet-20240620 models, a total of 25,541 question-answer pairs were generated, with approximately 3 pairs per image. Among these, at least one question-answer pair for each image focuses on specific image details. The Claude-3-opus-20240229 model contributed about 3,028 question-answer pairs, while the Claude-3-sonnet-20240620 model generated the remaining pairs.
+### [ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet)
+From the VisualGenome dataset V1.2, 21717 images were randomly selected. Using the Claude-3-opus-20240229 and Claude-3-sonnet-20240620 models, a total of 58312 question-answer pairs were generated, with approximately 3 pairs per image. Among these, at least one question-answer pair for each image focuses on specific image details. The Claude-3-opus-20240229 model contributed about 3,028 question-answer pairs, while the Claude-3-sonnet-20240620 model generated the remaining pairs.
 
 ### Question-Answer Pair Generation Code
 ####
 **GenerateQA.py** randomly selects images from the Visual Genome dataset and uses the Claude AI model to generate related question and answer pairs.
 
-1. Randomly selects 8000 images from the specified source directory.
+1. Randomly selects 21717 images from the specified source directory.
 2. Converts each image to base64 encoding.
 3. Uses the Claude-3-sonnet-20240620 model API to generate at least 3 Q&A pairs for each image.
 4. The first question is always about the overall description and details of the image.
@@ -78,6 +78,6 @@ From the VisualGenome dataset V1.2, 8,000 images were randomly selected. Using t
 ```
 
 
-The download links for images and QA text are available on the Hugging Face website. [REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet)。
+The download links for images and QA text are available on the Hugging Face website. [ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet)。
 
 **If you find this project helpful, we kindly request that you show your support by giving a star to both this project and the Hugging Face project. Your endorsement would greatly encourage our ongoing efforts to improve and maintain these resources.**
