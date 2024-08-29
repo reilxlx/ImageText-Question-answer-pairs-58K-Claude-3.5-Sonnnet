@@ -1,14 +1,14 @@
 [English](README.md)
 
-### VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet
-从VisualGenome数据集V1.2中随机抽取8000张图片，利用Claude-3-opus-20240229和Claude-3-sonnet-20240620两个模型生成了总计25,541个问答对，每张图片约3个问答，其中必有一个关于图像细节的问答。Claude-3-opus-20240229模型贡献了约3,028个问答对，而Claude-3-sonnet-20240620模型则生成了剩余的问答对。
+### REILX/ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet
+从VisualGenome数据集V1.2中随机抽取21717张图片，利用Claude-3-opus-20240229和Claude-3-sonnet-20240620两个模型生成了总计58312个问答对，每张图片约3个问答，其中必有一个关于图像细节的问答。Claude-3-opus-20240229模型贡献了约3,028个问答对，而Claude-3-sonnet-20240620模型则生成了剩余的问答对。
 
 
 ### 问答对生成代码
 ####  
 **GenerateQA.py** 从Visual Genome数据集中随机选择图片，并利用Claude AI模型生成相关的问题和答案对。
 
-1. 从指定的源目录随机选择8000张图片。
+1. 从指定的源目录随机选择21717张图片。
 2. 将每张图片转换为base64编码。
 3. 使用Claude-3-sonnet-20240620模型API，为每张图片生成至少3个问答对。
 4. 第一个问题总是关于图片的整体描述和细节。
@@ -80,4 +80,4 @@
 ```
 
 
-图像及QA文本下载地址可访问huggingface链接 [REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/VisualGenomeDatasetV1.2-8K-Claude-3-Opus-Claude-3.5-Sonnnet)。
+图像及QA文本下载地址可访问huggingface链接 [REILX/ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet](https://huggingface.co/datasets/REILX/ImageText-Question-answer-pairs-58K-Claude-3.5-Sonnnet)。
